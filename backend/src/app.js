@@ -7,7 +7,7 @@ loadData();
 
 const app = express();
 
-app.use(cors({ origin: 'https://amrit-2.vercel.app/' })); 
+app.use(cors({ origin: 'https://amrit-2.vercel.app' })); 
 app.use(express.json()); 
 
 //  API Routes 
