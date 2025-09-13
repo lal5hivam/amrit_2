@@ -1,0 +1,29 @@
+{
+  "name": "heavy-metal-api-nodejs",
+  "version": "1.0.0",
+  "description": "A structured API for calculating Heavy Metal Pollution Index",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hpi",
+    "heavy-metals",
+    "water-quality",
+    "api",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
+
